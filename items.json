@@ -1,0 +1,62 @@
+[  
+  {  
+    "id": 1,
+    "name": "Wooden Sword",
+    "category": "tool",
+    "image": "path/to/wooden_sword.png",
+    "description": "A basic sword made of wood.",
+    "stackSize": 1,
+    "howToObtain": "Crafted using 2 sticks and 1 wooden plank.",
+    "usedIn": ["combat"],
+    "relatedItems": ["stick", "wooden_plank"],
+    "recipeIds": [101]
+  },  
+  {  
+    "id": 2,
+    "name": "Stone Pickaxe",
+    "category": "tool",
+    "image": "path/to/stone_pickaxe.png",
+    "description": "A pickaxe made of stone, used for mining.",
+    "stackSize": 1,
+    "howToObtain": "Crafted using 3 cobblestones and 2 sticks.",
+    "usedIn": ["mining"],
+    "relatedItems": ["cobblestone", "stick"],
+    "recipeIds": [102]
+  },  
+  {  
+    "id": 3,
+    "name": "Iron Sword",
+    "category": "tool",
+    "image": "path/to/iron_sword.png",
+    "description": "A sturdy sword made of iron.",
+    "stackSize": 1,
+    "howToObtain": "Crafted using 2 iron ingots and 1 stick.",
+    "usedIn": ["combat"],
+    "relatedItems": ["iron_ingot", "stick"],
+    "recipeIds": [103]
+  },  
+  {  
+    "id": 4,
+    "name": "Golden Apple",
+    "category": "food",
+    "image": "path/to/golden_apple.png",
+    "description": "A magical apple that can restore health.",
+    "stackSize": 64,
+    "howToObtain": "Crafted using an apple and 8 gold blocks.",
+    "usedIn": ["healing"],
+    "relatedItems": ["apple", "gold_block"],
+    "recipeIds": [104]
+  },  
+  {  
+    "id": 5,
+    "name": "Leather Armor",
+    "category": "armor",
+    "image": "path/to/leather_armor.png",
+    "description": "Basic armor constructed from leather.",
+    "stackSize": 1,
+    "howToObtain": "Crafted from 8 leather pieces.",
+    "usedIn": ["protection"],
+    "relatedItems": ["leather"],
+    "recipeIds": [105]
+  }  
+]
